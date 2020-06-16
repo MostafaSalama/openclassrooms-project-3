@@ -1,0 +1,63 @@
+/* variables */
+:root {
+    --main-color:#0C8E6F;
+
+}
+body {
+    background-color: #EEF0F1;
+}
+header {
+    background-color: #fff;
+}
+ul {
+    list-style: none;
+}
+/*
+nav style elements
+*/
+
+.main-nav {
+   display: flex;
+}
+.main-nav > ul {  
+    align-self: center;
+    position: absolute;
+    right: 10%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;    
+}
+.main-nav > h1 {
+    left: 10px;
+    justify-self: flex-start;
+}
+@media screen and (max-width:800px) {
+    .main-nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-nav > ul {
+        position: initial;
+    }
+}
+
+/*
+main site section
+*/
+
+/* remove text-decoration for links at the bottom*/
+.social-link:hover {
+    text-decoration: none;
+}
+/*
+    adjust images at the footer width on small devices
+ */
+@media screen and (max-width: 600px) {
+    .img-link {
+        max-width: 140px;
+    }
+}
+form {
+    background: #ffffff;
+}

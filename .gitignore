@@ -1,0 +1,6 @@
+# IDE FILES
+/.idea
+# BUILD FILES
+/dist
+# .cashe
+/.cache
