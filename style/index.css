@@ -28,6 +28,7 @@ nav style elements
     grid-template-columns: repeat(4,1fr);
     grid-gap: 20px;    
 }
+
 .main-nav > h1 {
     left: 10px;
     justify-self: flex-start;
@@ -42,7 +43,12 @@ nav style elements
         position: initial;
     }
 }
-
+@media screen and (max-width: 500px) {
+    .main-nav > ul {
+      display: flex;
+        flex-direction: column;
+    }
+}
 /*
 main site section
 */
