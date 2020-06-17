@@ -79,6 +79,18 @@ main site section
     padding: 20px;
     text-align: center;
 }
+/* adjust card component and movie height and align*/
+.movie {
+    height: 800px;
+}
+@media screen and (max-width: 991px){
+    .movie {
+        height: max-content;
+        margin-bottom: 20px;
+
+    }
+
+}
 /* remove text-decoration for links at the bottom*/
 .social-link:hover {
     text-decoration: none;
