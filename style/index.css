@@ -28,7 +28,9 @@ nav style elements
     grid-template-columns: repeat(4,1fr);
     grid-gap: 20px;    
 }
+data[data-toggle=modal]{
 
+}
 .main-nav > h1 {
     left: 10px;
     justify-self: flex-start;
